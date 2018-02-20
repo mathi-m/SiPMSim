@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1519059777 source:c:\users\matthias\workspace\cpp\sipmsim\main.cpp
+	<iostream>
+	"Frame.hpp"
+
+1519059679 c:\users\matthias\workspace\cpp\sipmsim\include\frame.hpp
+
+1519059679 source:c:\users\matthias\workspace\cpp\sipmsim\src\frame.cpp
+	"Frame.hpp"
+
