@@ -35,9 +35,11 @@
 			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/CrosstalkGenerator.h" />
 		<Unit filename="include/DarkCountGenerator.h" />
 		<Unit filename="include/Frame.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CrosstalkGenerator.cpp" />
 		<Unit filename="src/DarkCountGenerator.cpp" />
 		<Unit filename="src/Frame.cpp" />
 		<Extensions>
