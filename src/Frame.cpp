@@ -24,6 +24,18 @@ unsigned short Frame::getColumns() const{
     return this->columns;
 }
 
+bool Frame::hasEvents() const{
+    //check all channels
+    for(unsigned short r=0; r<rows; r++){
+        for(unsigned short c=0; c<columns; c++){
+            //an event is present, if value not 0
+            if(sensor.at(r).at(c) != 0)
+                return true;
+        }
+    }
+    return false;
+}
+
 Frame::~Frame(){
     //dtor
 }

@@ -55,6 +55,13 @@ class Frame
         void setEventsInChannel(unsigned short row, unsigned short col, unsigned short nbEvents);
 
         /**
+         * \brief Determine if the Frame contains events.
+         *
+         * \return true if events are present, false otherwise (all channels = 0).
+         */
+        bool hasEvents(void) const;
+
+        /**
          * \brief Standard Destructor.
          */
         virtual ~Frame();

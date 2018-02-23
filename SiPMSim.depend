@@ -1,19 +1,20 @@
 # depslib dependency file v1.0
-1519300556 source:c:\users\matthias\workspace\cpp\sipmsim\main.cpp
+1519402527 source:c:\users\matthias\workspace\cpp\sipmsim\main.cpp
 	<iostream>
 	"Frame.h"
 	"DarkCountGenerator.h"
+	"CrosstalkGenerator.h"
 	<array>
 	<random>
 	<fstream>
 
 1519059679 c:\users\matthias\workspace\cpp\sipmsim\include\frame.hpp
 
-1519143759 source:c:\users\matthias\workspace\cpp\sipmsim\src\frame.cpp
+1519323550 source:c:\users\matthias\workspace\cpp\sipmsim\src\frame.cpp
 	"Frame.h"
 	<iostream>
 
-1519143721 c:\users\matthias\workspace\cpp\sipmsim\include\frame.h
+1519323552 c:\users\matthias\workspace\cpp\sipmsim\include\frame.h
 	<vector>
 
 1519299692 source:c:\users\matthias\workspace\cpp\sipmsim\src\darkcountgenerator.cpp
@@ -22,4 +23,12 @@
 1519294888 c:\users\matthias\workspace\cpp\sipmsim\include\darkcountgenerator.h
 	<random>
 	"Frame.h"
+
+1519402876 source:c:\users\matthias\workspace\cpp\sipmsim\src\crosstalkgenerator.cpp
+	"CrosstalkGenerator.h"
+
+1519400321 c:\users\matthias\workspace\cpp\sipmsim\include\crosstalkgenerator.h
+	<random>
+	"Frame.h"
+	<iostream>
 
