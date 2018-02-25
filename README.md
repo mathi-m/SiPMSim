@@ -12,9 +12,7 @@ The simulator will be described afterwards.
 ## Silicon Photomultiplier
 
 A Silicon Photomultiplier (SiPM) is a semiconductor device for detecting light. It consists of an array of parallel connected pixels or microcells. Each microcell consists of an avalanche photodiode (APD) with a quenching resistor connected in series.
-The photodiode is operated in the so called Geiger-mode. Hear the diode is reversed biased with an voltage greater than the breakdown voltage of the diode. The bias voltage is given by ![the breakdown voltage plus the overvoltage](http://www.sciweavers.org/tex2img.php?eq=V_%7Bbias%7D%3DV_%7Bbreakdown%7D%2BV_%7Bovervoltage%7D&bc=Transparent&fc=Black&im=png&fs=12&ff=modern&edit=0 "voltage plus overvoltage").
-
-<img src="http://www.sciweavers.org/tex2img.php?eq=V_%7Bbias%7D%3DV_%7Bbreakdown%7D%2BV_%7Bovervoltage%7D&bc=Transparent&fc=Black&im=png&fs=12&ff=modern&edit=0" align="center" border="0" alt="V_{bias}=V_{breakdown}+V_{overvoltage}" width="212" height="18" />
+The photodiode is operated in the so called Geiger-mode. Hear the diode is reversed biased with an voltage greater than the breakdown voltage of the diode. The bias voltage is given by ![the breakdown voltage plus the overvoltage](http://www.sciweavers.org/tex2img.php?eq=V_%7Bbias%7D%3DV_%7Bbreakdown%7D%2BV_%7Bovervoltage%7D&bc=Transparent&fc=Black&im=png&fs=11&ff=modern&edit=0 "voltage plus overvoltage").
 
 <img src="./doc/SiPM-schematic.svg" align="center">
 
